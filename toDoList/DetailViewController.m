@@ -26,7 +26,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view.
+	
+    // self.detailsLabel.text = self.detailLabelContents;
+    
+    self.detailTextBox.text = self.detailLabelContents;
+    
 }
 
 - (void)didReceiveMemoryWarning

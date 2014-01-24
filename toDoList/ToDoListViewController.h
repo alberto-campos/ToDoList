@@ -8,9 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ToDoListViewController : UITableViewController
+@interface ToDoListViewController : UITableViewController <UISearchBarDelegate>
 
 @property (nonatomic, strong) NSMutableArray *objects;
 @property (nonatomic, strong) NSMutableArray *results;
+@property (strong, nonatomic) IBOutlet UISearchBar *searchBar;
+
+
 
 @end
